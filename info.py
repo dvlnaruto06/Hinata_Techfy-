@@ -34,12 +34,12 @@ QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/cfa6d17e4c06bd757563c-b
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 #this vars is for when heroku or koyeb acc get banned, then change this vars as your file to link bot name
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002309319668'))
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002635477308'))
 URL = environ.get('URL', '')
 
 # verify system vars
 IS_VERIFY = is_enabled('IS_VERIFY', False)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', ''))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002596920866'))
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/moviehub4u_update")
 TUTORIAL2 = environ.get("TUTORIAL2", "https://t.me/moviehub4u_update")
 TUTORIAL3 = environ.get("TUTORIAL3", "https://t.me/moviehub4u_update")
